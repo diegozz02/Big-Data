@@ -1,0 +1,154 @@
+.App {
+  padding: 1%;
+  background-image: url('./components/images/fondo.jpeg');
+  height: 400vh;
+  background-size: 100%;
+  
+  /* background-size: cover; */
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  
+}
+.containerLogin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+.contPronostico contSuavisar{
+  text-align: center;
+    background-size: cover;
+    background-position: center;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgba(255, 137, 137, 0.829);
+  border-radius: 20px;
+}
+.contSuavisar{
+  text-align: center;
+    background-size: cover;
+    background-position: center;
+  width: 350px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.829);
+  border-radius: 20px;
+}
+.comGrafico{
+  background-color: rgba(255, 255, 255, 0.96);
+  border-radius: 20px;
+}
+.boton {
+  background-color: rgba(221, 221, 221, 0.5); /* Gris semi-transparente */
+  color: rgb(0, 0, 0); /* Color del texto */
+  padding: 10px 20px; /* Ajusta el padding para el tamaño del botón */
+  border: none; /* Elimina el borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  font-size: 16px; /* Tamaño del texto */
+}
+
+/* Pseudo-clase para estilos al pasar el ratón */
+.boton:hover {
+  background-color: rgba(128, 128, 128, 0.7); /* Gris más oscuro semi-transparente al pasar el ratón */
+}
+
+.tablas{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabla{
+  flex-basis: 200px;
+  margin: 0% 5%;
+  
+
+}
+
+table {
+  border: 1px solid #000;
+  border-collapse: separate;
+  /* border-spacing: 5px; */
+  width: 300px;
+  /* table-layout:inherit; */
+}
+.titulo{
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%; /* Modificar el ancho de la tabla según sea necesario */
+  margin: 20px auto; /* Centrar la tabla en la página */
+  min-width: 300px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px; /* Modificar el espacio interno de las celdas según sea necesario */
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
